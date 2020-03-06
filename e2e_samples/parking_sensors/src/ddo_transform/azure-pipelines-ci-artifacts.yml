@@ -104,7 +104,7 @@ stages:
     steps:
     - task: PublishBuildArtifacts@1
       inputs:
-        PathtoPublish: 'databricks'
+        PathtoPublish: 'e2e_samples/parking_sensors/databricks'
         ArtifactName: 'databricks'
       displayName: 'Publish Databricks Artifacts'
 
