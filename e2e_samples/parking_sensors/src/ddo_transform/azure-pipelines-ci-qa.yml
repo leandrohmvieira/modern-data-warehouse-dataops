@@ -13,7 +13,7 @@ pr:
     - e2e_samples/parking_sensors/src/ddo_transform/*
 
 variables:
-  WORKING_DIR: 'src/ddo_transform'
+  WORKING_DIR: 'e2e_samples/parking_sensors/src/ddo_transform'
 
 pool:
   vmImage: 'Ubuntu-16.04'
