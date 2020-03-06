@@ -110,7 +110,7 @@ stages:
 
     - task: PublishBuildArtifacts@1
       inputs:
-        PathtoPublish: 'adf/_scripts/deploymentadf.ps1'
+        PathtoPublish: 'e2e_samples/parking_sensors/adf/_scripts/deploymentadf.ps1'
         ArtifactName: 'adf_scripts'
       displayName: 'Publish ADF Scripts'
 
