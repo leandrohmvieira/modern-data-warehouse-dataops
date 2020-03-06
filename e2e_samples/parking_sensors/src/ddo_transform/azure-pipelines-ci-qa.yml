@@ -10,7 +10,7 @@ pr:
     - releases/*
   paths:
     include:
-    - src/ddo_transform/*
+    - e2e_samples/parking_sensors/src/ddo_transform/*
 
 variables:
   WORKING_DIR: 'src/ddo_transform'
