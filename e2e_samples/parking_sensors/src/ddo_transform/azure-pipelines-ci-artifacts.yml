@@ -9,11 +9,11 @@ trigger:
     - master
 
 variables:
-  WORKING_DIR: 'src/ddo_transform'
+  WORKING_DIR: 'e2e_samples/parking_sensors/src/ddo_transform'
   PACKAGE_MAJOR_VERSION:  1
   PACKAGE_MINOR_VERSION:  1
   PACKAGE_PATCH_VERSION:  $(Build.BuildId)
-  SQL_DW_PATH: 'sql/ddo_azuresqldw_dw'
+  SQL_DW_PATH: 'e2e_samples/parking_sensors/sql/ddo_azuresqldw_dw'
   SQL_DW_SOLUTION_NAME: 'ddo_azuresqldw_dw'
   SQL_DW_SOLUTION: '$(SQL_DW_PATH)/$(SQL_DW_SOLUTION_NAME).sln'
   BUILD_PLATFORM: 'Any CPU'
